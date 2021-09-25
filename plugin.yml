@@ -1,0 +1,16 @@
+name: GuildUI
+version: 1.0.0
+api: [3.0.0]
+main: HaykalPRO/GuildUI/Main
+website: "https://github.com/HorlandoSR"
+mcpe-protocol:
+- "448"
+
+commands:
+  guild:
+    description: "Show Your Guild with UI"
+    permission: guild.ui
+   
+permissions:
+  guild.ui:
+    description: "/guild"
